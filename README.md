@@ -1,25 +1,32 @@
 # This is simple package for time formats converting
 
 To install a wheel from PyPI:
-`pip install solid-broccoli`
+
+```pip install solid-broccoli```
 
 ## To convert unix timestamp (s or ms) to human-readable format run in your command line
 
-`solid-broccoli -u 1681156492`
+```solid-broccoli -u 1681156492```
+
 or
-`python -m solid_broccoli -u 1681156492`
+
+```python -m solid_broccoli -u 1681156492```
 
 Output
-`Date: 10-04-2023, 22:54:52`
+
+```Date: 10-04-2023, 22:54:52```
 
 ## To convert human-readable format to unix timestamp run in your command line
 
-`solid-broccoli -d '10-04-2023, 22:54:52'`
+```solid-broccoli -d '10-04-2023, 22:54:52'```
+
 or
-`python -m solid_broccoli -d '10-04-2023, 22:54:52'`
+
+```python -m solid_broccoli -d '10-04-2023, 22:54:52'```
 
 Output
-`Unix timestamp: 1681156492`
+
+```Unix timestamp: 1681156492```
 
 NOTE: days first preferred over other formats (i.e. MM-DD-YYYY). Timezone - ignored
 
