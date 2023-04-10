@@ -50,13 +50,13 @@ def unix_to_human_and_versa() -> None:
         For date preferable format - days first (example MM-DD-YYYY).
     """
 
-    if args["u"]:
-        converted_input = unix_to_string(args["u"])
+    if args.unix:
+        converted_input = unix_to_string(args.unix)
         to_return = (
             "Date: " + converted_input if converted_input else to_return
         )
-    elif args["d"]:
-        converted_input = string_to_unix(args["d"])
+    elif args.date:
+        converted_input = string_to_unix(args.date)
         to_return = (
             "Unix timestamp: " + converted_input
             if converted_input

@@ -1,11 +1,10 @@
 from setuptools import setup
 
 setup(
-    name="example",
+    name="solid-broccoli",
     version="0.0.1",
     install_requires=[
-        "requests",
-        "orjson",
+        "python-dateutil",
     ],
     author="IM-coding",
     # IN bash just type hello-world
